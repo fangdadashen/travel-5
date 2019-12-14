@@ -7,19 +7,19 @@
           <div class="list-item" @click="show(index)">
               {{item.name}}
           </div>
-          <home-list 
+          <common-list 
               v-if="listshow[index]"
               :list=item.children 
               class="item-children"
           >
-          </home-list>          
+          </common-list>          
       </div>
   </div>
 </template>
 
 <script>
 export default {
-    name:'HomeList',
+    name:'CommonList',
     props:{
         list:Array
     },

@@ -1,0 +1,44 @@
+{
+  "id": "1563563",
+  "name": "vue-study",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3814058",
+      "name": "方向 (4)",
+      "font_class": "top",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3877891",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6046683",
+      "name": "方向-左",
+      "font_class": "fangxiang",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "7481349",
+      "name": "方向",
+      "font_class": "arrow-up",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10177491",
+      "name": "方向",
+      "font_class": "arrow-copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
