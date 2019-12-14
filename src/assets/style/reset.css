@@ -1,0 +1,40 @@
+@charset "utf-8";
+html {
+    background-color: #fff;
+    color: #000;
+    font-size: 12px
+}
+ 
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,figure,
+form,fieldset,legend,input,textarea,button,
+p,blockquote,th,td,pre,xmp{
+    margin: 0;
+    padding: 0
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: tahoma, arial, "Hiragino Sans GB", "微软雅黑", simsun, sans-serif
+}
+ul,ol,menu {
+    list-style: none
+}
+a,ins,s,u,del {
+    text-decoration: none
+}
+html {
+    overflow-x: hidden;
+    height: 100%;
+    font-size: 100px;
+    -webkit-tap-highlight-color: transparent;
+}
+ 
+body {
+    font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+    color: #333;
+    font-size: .28em;
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+}
+a {
+    color: #25a4bb;
+    text-decoration: none;
+}
