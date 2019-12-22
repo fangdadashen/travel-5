@@ -40,6 +40,7 @@ export default {
     },
     methods:{
         HandleClickAlphabet(e){//点击切换首字母区域
+            // this.bus.$emit('busclick',e.target.innerText)//bus传递
             this.$emit('change',e.target.innerText)
         },
         TouchStart(){

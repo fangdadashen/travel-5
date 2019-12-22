@@ -13,6 +13,7 @@ Vue.config.productionTip = false
 //swiper插件
 Vue.use(VueAwesomeSwiper)
 
+Vue.prototype.bus = new Vue()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

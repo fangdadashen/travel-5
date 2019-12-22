@@ -54,6 +54,11 @@ export default {
             this.$router.push('/');
         }
     },
+    // created(){//bus总线传递数据
+    //     this.bus.$on('busclick',function(msg){
+    //             console.log(msg)
+    //         });
+    // },
     mounted(){//引入better-scroll插件
         this.scroll=new BScroll(this.$refs.wrapper,{
             click:true
